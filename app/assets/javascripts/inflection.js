@@ -1,3 +1,7 @@
+/*
+ * http://lummie.co.uk/javascript-%E2%80%93-rails-like-pluralize-function/
+ */
+
 Inflector = {
 /*
      * The order of all these lists has been reversed from the way 
