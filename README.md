@@ -7,7 +7,7 @@ This is sample Rails 3.1 application that demonstrates usage of
 * [CoffeeScript](http://jashkenas.github.com/coffee-script/)
 * [ejs](https://github.com/sstephenson/ejs/)
 
-based on https://raw.github.com/rsim/backbone_coffeescript_demo.
+based on https://github.com/rsim/backbone_coffeescript_demo.
 
 Run it
 ======
@@ -19,6 +19,8 @@ Install gems, run migrations and start application with
   rails server
   
 And then visit `http://localhost:3000`.
+
+Developed and untested with Ruby 1.9.3.
 
 Source code
 ===========
