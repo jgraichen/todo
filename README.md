@@ -4,8 +4,10 @@ Overview
 This is sample Rails 3.1 application that demonstrates usage of
 
 * [Backbone.js](http://documentcloud.github.com/backbone/)
+* [backbone-rails](https://github.com/codebrew/backbone-rails)
 * [CoffeeScript](http://jashkenas.github.com/coffee-script/)
 * [ejs](https://github.com/sstephenson/ejs/)
+* [Sass](http://sass-lang.com/)
 
 based on https://github.com/rsim/backbone_coffeescript_demo.
 
