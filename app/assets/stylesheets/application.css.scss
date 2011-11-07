@@ -1,0 +1,58 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+//@import "compass/reset";
+//@import "compass";
+
+html, body { background: #e6e6e6; background-image: image-url("background.png"); }
+body { font: 12px/1.4 Helvetica, "Trebuchet MS", Arial, sans-serif; color: #333; }
+
+#todoapp, #instructions {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#todoapp {
+  margin: 30px auto 6px;
+  background: #fff;
+  box-shadow: 0 2px 4px #777;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+a { color: inherit; }
+a:hover { color: darken(#333, 5%); }
+
+h1 { text-align: center; margin: 4px; }
+#instructions { list-style: none; font-size: 0.8em; color: #999; }
+input { border: 1px solid #ddd; padding: 6px 9px; width: 380px; }
+.ui-tooltip-top { border: 1px solid #ddd; border-top: 0; 
+  color: 999; padding: 2px; display: block; position: absolute; 
+  background: #fff; width: 394px; }
+#todo-stats { color: #999; font-size: .9em; margin-top: 16px; }
+
+#todo-list { 
+  list-style: none; padding: 0; margin: 16px 0 0; 
+  
+  li {
+    padding: 3px;
+  
+    .done { color: #aaa; font-variant: italic; }
+    .check { float: left; }
+    .todo-content { padding: 3px 6px 3px 30px; }
+    .edit { 
+      display: none; 
+      input { padding: 3px 6px 3px 22px; width: 358px; background: #fff image-url("pencil.png") no-repeat 2px 50%; margin: 0 4px; }
+    }
+    .display { display: block; }
+  }
+  li.editing {
+    .edit { display: block; }
+    .display { display: none; }
+  }
+}
