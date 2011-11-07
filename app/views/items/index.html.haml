@@ -11,28 +11,4 @@
     #todo-stats
 %ul#instructions
   %li Double-Click to edit a todo.
-  
-%script#item-template{ :type => "text/html" }
-  .todo{ :class => "{{#done}}done{{/done}}" }
-    .display
-      %input{ :class => "check", :type => "checkbox", :"{{#done}}checked{{/done}}" => true }
-      .todo-content
-      %span.todo-destroy
-    .edit
-      %input.todo-input{ :type => "text", :value => "" }
-      
-%script#stats-template{ :type => "text/html" }
-  {{#if total}}
-  %span.todo-count
-    %span.number {{remaining}}
-    %span.word {{pluralize remaining "item"}}
-    left.
-  {{/if}}
-  {{#if done}}
-  %span.todo-clear
-    %a{ :href => "#" }
-      Clear
-      %span.number-done {{done}}
-      completed
-      %span.word-done {{pluralize done "item"}}
-  {{/if}}
+
