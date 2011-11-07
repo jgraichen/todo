@@ -30,7 +30,7 @@ a:hover { color: darken(#333, 5%); }
 
 h1 { text-align: center; margin: 4px; }
 #instructions { list-style: none; font-size: 0.8em; color: #999; }
-input { border: 1px solid #ddd; padding: 6px 9px; width: 380px; }
+input[type="text"] { border: 1px solid #ddd; padding: 6px 9px; width: 380px; }
 .ui-tooltip-top { border: 1px solid #ddd; border-top: 0; 
   color: 999; padding: 2px; display: block; position: absolute; 
   background: #fff; width: 394px; }
