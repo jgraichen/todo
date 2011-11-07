@@ -1,6 +1,6 @@
 class Todo.Views.Item extends Backbone.View
   tagName: 'li'
-  template: Todo.template '#item-template'
+  template: JST['backbone/templates/item']
   
   events:
     "click .check"              : "toggleDone"

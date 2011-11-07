@@ -10,7 +10,7 @@
 //= require backbone
 //= require backbone_rails_sync
 //= require backbone_datalink
-//= require handlebars.1.0.0.beta.3
+//= require inflection
 //= require backbone/todo
 //= require_tree .
 

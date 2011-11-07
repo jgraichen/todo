@@ -8,7 +8,7 @@ gem 'haml'
 
 gem 'therubyracer'
 gem 'rails-backbone'
-#gem 'closure-sprockets'
+gem 'ejs'
 gem 'compass', '>= 0.11.5', :require => 'compass'
 
 group :assets do

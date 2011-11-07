@@ -1,6 +1,6 @@
 class Todo.Views.Index extends Backbone.View
   el: "#todoapp"
-  statsTemplate: Todo.template "#stats-template"
+  statsTemplate: JST["backbone/templates/stats"]
   
   events:
     "keypress #new-todo"  : "createOnEnter"
